@@ -1,66 +1,59 @@
-# Planejamento Urbano - Aplicação de Mapeamento e Registro
+Planejamento Urbano - Aplicação de Mapeamento e Registro
+Este projeto acadêmico tem como objetivo criar uma aplicação inovadora para auxiliar no planejamento urbano, capacitando os usuários a identificarem locais com condições precárias de pavimentação e comunicarem essas situações às entidades responsáveis.
 
-Este projeto acadêmico visa criar uma aplicação para auxiliar no planejamento urbano, permitindo que os usuários identifiquem locais com condições precárias de pavimentação e comuniquem essas situações às entidades responsáveis.
+Funcionalidades Principais
+1. Mapa Interativo
+Utilizamos um mapa interativo baseado na biblioteca Folium, permitindo a marcação de locais específicos relacionados à pavimentação precária. Essa funcionalidade oferece uma visão geoespacial intuitiva e facilita a identificação precisa dos pontos a serem destacados.
 
-## Funcionalidades Principais
+2. Formulário de Comunicação
+Desenvolvemos um formulário intuitivo para coletar informações relevantes sobre os locais identificados. Os campos incluem telefone, CEP, nome e assunto, proporcionando detalhes adicionais que enriquecem a comunicação com as entidades responsáveis.
 
-### 1. Mapa Interativo
+3. Autenticação de Usuários
+Implementamos um sistema de login para garantir o acesso exclusivo aos usuários registrados, reforçando a segurança das informações. As senhas são protegidas por criptografia SHA-256, assegurando a confidencialidade dos dados dos usuários.
 
-- Utilização de um mapa interativo baseado em Folium.
-- Marcação de locais específicos relacionados à pavimentação precária.
+Instruções de Uso
+Conecte-se:
 
-### 2. Formulário de Comunicação
+Insira seu e-mail e senha para acessar a aplicação.
+Mapa:
 
-- Formulário intuitivo para coletar informações relevantes sobre os locais identificados.
-- Campos como telefone, CEP, nome e assunto para fornecer detalhes adicionais.
+Navegue pelo mapa interativo.
+Clique para marcar locais com pavimentação precária.
+Formulário:
 
-### 3. Autenticação de Usuários
+Preencha o formulário com informações fornecidas.
+Anexe fotos, se possível.
+Comunicação:
 
-- Sistema de login para garantir acesso apenas a usuários registrados.
-- Proteção de senha através de criptografia SHA-256.
+Envie os dados do formulário para notificar as entidades responsáveis.
+Melhorias Implementadas
+Comentários descritivos adicionais para facilitar a compreensão do código.
+Separação de responsabilidades em módulos distintos, promovendo uma estrutura mais modular e fácil de manter.
+Validação aprimorada para garantir a integridade dos dados inseridos pelos usuários.
+Persistência de dados utilizando SQLite, proporcionando uma solução eficiente e escalável para armazenamento.
+Interface do usuário mais amigável e intuitiva, com feedback visual claro para as interações dos usuários.
+Requisitos
+Python 3.x
+Bibliotecas Python (ver requisitos.txt)
+Conhecimento em HTML, CSS e JavaScript (utilizados no backend para a criação da interface do usuário e interações dinâmicas).
+Instalação
+Clone o repositório:
 
-## Instruções de Uso
+bash
+Copy code
+git clone https://github.com/seu-usuario/seu-projeto.git
+Instale as dependências:
 
-1. **Login:**
-   - Insira seu e-mail e senha para acessar a aplicação.
+bash
+Copy code
+pip install -r requisitos.txt
+Execute o aplicativo:
 
-2. **Mapa:**
-   - Navegue pelo mapa interativo.
-   - Clique para marcar locais com pavimentação precária.
+bash
+Copy code
+python main.py
+Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar alterações de pull.
 
-3. **Formulário:**
-   - Preencha o formulário com informações detalhadas.
-   - Anexe fotos, se possível.
-
-4. **Comunicação:**
-   - Envie os dados do formulário para notificar as entidades responsáveis.
-
-## Melhorias Implementadas
-
-- [x] Comentários descritivos adicionados para facilitar a compreensão do código.
-- [x] Separação de responsabilidades em módulos distintos.
-- [x] Validação aprimorada para garantir dados corretos.
-- [x] Persistência de dados usando SQLite.
-- [x] Interface do usuário mais amigável e intuitiva.
-- [x] Feedback visual claro para interações dos usuários.
-
-## Requisitos
-
-- Python 3.x
-- Bibliotecas Python (ver requisitos.txt)
-
-## Instalação
-
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Instale as dependências: `pip install -r requisitos.txt`
-3. Execute o aplicativo: `python main.py`
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar solicitações de pull.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
-
+Licença
+Este projeto está licenciado sob a Licença MIT.
